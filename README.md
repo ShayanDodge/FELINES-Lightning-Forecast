@@ -27,14 +27,3 @@ More context is available on the project website and public deliverables ([links
 >  ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**. Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
 
-## Scope of This Repository
-
-This repository currently implements **Phase 1: Lightning Geolocation and Peak Current Estimation**, including:
-
-- Synthetic dataset generation via electromagnetic transient simulations  
-- Deep learning architectures for regression tasks  
-- Model training and evaluation workflows  
-
-Future releases will progressively integrate Phase 2 components related to early-stage classification and protection strategies.
-
-More information about the project is available at:  

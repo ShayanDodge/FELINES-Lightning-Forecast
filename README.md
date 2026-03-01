@@ -8,9 +8,7 @@ The work combines **PBP/RS modeling**, **electromagnetic field & coupling simula
 More context is available on the project website and public deliverables ([links below](https://felines.prin.unige.it/)).
 
 ---
-### Research Framework
-
-The overall FELINES methodology is structured in two complementary phases:
+### 📦 What a Repository Includes
 
 #### 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
 This phase focuses on:

@@ -9,9 +9,9 @@ The work combines **PBP/RS modeling**, **electromagnetic field & coupling simula
 More context is available on the project website and public deliverables ([links below](https://felines.prin.unige.it/)).
 
 ---
-### 📦 What a Repository Includes
+## 📦 What a Repository Includes
 
-#### 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
+### 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
 This phase focuses on:
 - Estimating lightning strike location  
 - Regressing channel-base peak current  
@@ -20,7 +20,7 @@ This phase focuses on:
 
 This phase provides the physical and data-driven foundation for risk assessment and protection strategies.
 
-#### ⚡ Phase 2 — Early-Stage Classification and Protection  
+### ⚡ Phase 2 — Early-Stage Classification and Protection  
 This phase addresses:
 - PBP and RS electromagnetic modeling  
 - Field-to-line coupling simulations  
@@ -30,7 +30,7 @@ This phase addresses:
 
 ---
 
-### Scope of This Repository
+## Scope of This Repository
 
 This repository currently implements **Phase 1: Lightning Geolocation and Peak Current Estimation**, including:
 

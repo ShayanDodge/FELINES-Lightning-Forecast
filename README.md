@@ -12,11 +12,10 @@ More context is available on the project website and public deliverables ([links
 ## 📦 What a Repository Includes
 
 ### 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
-This phase focuses on:
+- Developing deep learning models trained on electromagnetic transient simulations
+- Reconstructing event characteristics from induced overvoltage waveforms  
 - Estimating lightning strike location  
 - Regressing channel-base peak current  
-- Reconstructing event characteristics from induced overvoltage waveforms  
-- Developing deep learning models trained on electromagnetic transient simulations  
 
 This phase provides the physical and data-driven foundation for risk assessment and protection strategies.
 

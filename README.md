@@ -24,6 +24,8 @@ More context is available on the project website and public deliverables ([links
 - PBP and RS electromagnetic modeling  
 - Field-to-line coupling simulations  
 
+> ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**.  
+> Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
 
 ## Scope of This Repository

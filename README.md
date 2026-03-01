@@ -5,7 +5,7 @@
 
 
 FELINES is a research project aiming to **design a preventive protection concept** for electrical infrastructures by sensing electromagnetic fields generated during the **early phases of lightning inception**—in particular the **Preliminary Breakdown Pulses (PBP)**—and using them to **predict whether the upcoming Return Stroke (RS) could be dangerous**, enabling timely disconnection of vulnerable equipment.  
-The work combines **PBP/RS modeling**, **electromagnetic field & coupling simulations**, **sensor network design**, and **machine learning** for early classification (“dangerous RS” vs “not dangerous”).  
+The work combines **PBP/RS modeling**, **electromagnetic field & coupling simulations**, and **machine learning** for early classification (“dangerous RS” vs “not dangerous”).  
 More context is available on the project website and public deliverables ([links below](https://felines.prin.unige.it/)).
 
 ---

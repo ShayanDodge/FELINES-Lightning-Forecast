@@ -17,15 +17,12 @@ More context is available on the project website and public deliverables ([links
 - Estimating lightning strike location  
 - Regressing channel-base peak current  
 
-This phase provides the physical and data-driven foundation for risk assessment and protection strategies.
-
 ### ⚡ Phase 2 — Early-Stage Classification and Protection  
-This phase addresses:
+- This phase provides the physical and data-driven foundation for risk assessment and protection strategies
+- Early warning and protection triggering logic  
+- Machine learning–based classification of dangerous vs non-dangerous events  
 - PBP and RS electromagnetic modeling  
 - Field-to-line coupling simulations  
-- Sensor network design  
-- Machine learning–based classification of dangerous vs non-dangerous events  
-- Early warning and protection triggering logic  
 
 ---
 

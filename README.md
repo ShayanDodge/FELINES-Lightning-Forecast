@@ -9,14 +9,14 @@ The work combines **PBP/RS modeling**, **electromagnetic field & coupling simula
 More context is available on the project website and public deliverables ([links below](https://felines.prin.unige.it/)).
 
 ---
-## 📦 What a Repository Includes
+# 📦 What a Repository Includes
 
-### 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
+## 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
 - Developing deep learning models trained on electromagnetic signals
 - Estimating lightning strike location  
 - Regressing channel-based peak current  
 
-### ⚡ Phase 2 — Early-Stage Classification and Protection  
+## ⚡ Phase 2 — Early-Stage Classification and Protection  
 - This phase provides the physical and data-driven foundation for risk assessment and protection strategies
 - Machine learning–based classification of dangerous vs non-dangerous events  
 - PBP and RS electromagnetic modeling  
@@ -24,7 +24,7 @@ More context is available on the project website and public deliverables ([links
 
 >  ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**. Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
-### 📌 PHASE 1 — FIRST CASE STUDY
+## 📌 Phase 1 — FIRST CASE STUDY
 
 This release corresponds to **Phase 1 of the FELINES project**, 
 dedicated to lightning geolocation and peak current estimation 
@@ -41,7 +41,7 @@ The scientific foundations of this work are presented in:
 described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
 
-#### 🌩  PROJECT VISION
+### 🌩  PROJECT VISION
 
 
 FELINES develops an intelligent framework for lightning-aware
@@ -60,7 +60,7 @@ Dodge et al., “A deep learning based lightning location system”
 Electric Power Systems Research, 2025.
 
 
-#### 🎯  OBJECTIVE
+### 🎯  OBJECTIVE
 
 Estimate in real time:
 
@@ -75,7 +75,7 @@ Using:
   • Deep Learning regression models
 
 
-#### 📦 REPOSITORY CONTENT
+### 📦 REPOSITORY CONTENT
 
 
 This repository contains:
@@ -117,7 +117,7 @@ This release includes:
     full reproducibility of the published results.
 
 
-#### 📊  DATASETS
+### 📊  DATASETS
 
 
 1) OLD SCENARIO — Benchmark Case
@@ -141,7 +141,7 @@ This release includes:
 Direct strikes are filtered using the Electro-Geometric Model (EGM).
 
 
-#### 🧠  IMPLEMENTED METHODS
+### 🧠  IMPLEMENTED METHODS
 
 
 FFDM  — Full Frequency Domain Method
@@ -154,7 +154,7 @@ MTDM highlights:
   • 3 hidden layers (74 neurons each)
   • 10-fold cross-validation
 
-#### 📈  PERFORMANCE (NEW SCENARIO - MTDM)
+### 📈  PERFORMANCE (NEW SCENARIO - MTDM)
 
 
   Average Location Error:        67.24 m

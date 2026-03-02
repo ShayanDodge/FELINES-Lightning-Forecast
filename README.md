@@ -57,7 +57,7 @@ The scientific foundations of this work are presented in:
 📌 This repository implements, reproduces, and extends the methodology
 described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
-### 🌩  Project Vision
+### 🌩 Project Vision
 
 Rather than relying solely on conventional far-field Lightning
 Location Systems (LLS), FELINES introduces a line-integrated
@@ -168,7 +168,7 @@ The model maintains stable performance under realistic perturbations:
 ✔ Variations in soil conductivity (limited sensitivity observed)
 
 ----
-### 🔮  Next Steps — Phase 2
+### 🔮 Next Steps — Phase 2
 
 
   • Preliminary Breakdown Pulse (PBP) analysis
@@ -211,9 +211,9 @@ and University of Campania “Luigi Vanvitelli”.
 | **Alessandro Formisano** | Full Professor | [ORCID](https://orcid.org/XXXX) |
 | **Ehsan Akbari Sekeh Ravani** | Research Fellow | [ORCID](https://orcid.org/XXXX) |
   
---------------------------------------------------------------------
-🤝  ACKNOWLEDGMENTS
---------------------------------------------------------------------
+
+
+## 🤝 Acknowledgments
 
 Supported by:
 Italian Ministry for Education, University, and Research (PRIN 2022)

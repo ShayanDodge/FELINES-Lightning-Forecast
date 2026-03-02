@@ -91,55 +91,64 @@ It contains:
   and robustness analysis utilities ensuring full
   reproducibility of the published results.
 
+### 📊 DATASETS
 
-### 📊  DATASETS
+The repository includes two simulated scenarios used for
+model development and validation:
 
-
-1) OLD SCENARIO — Benchmark Case
-
-  • 10 km single-conductor transmission line
-  • 2 voltage sensors
-  • 2000 simulated lightning events
-  • 2000 samples per waveform
-  • Soil conductivity: 5 mS/m
-
-
-2) NEW SCENARIO — Realistic Distribution Line
-
-  • 2 km three-phase MV distribution line
-  • Surge arresters every 250 m
-  • 2 voltage sensors
-  • 2000 simulated lightning events
-  • 3701 samples per waveform
-  • Soil conductivity: 1 mS/m
+| Feature | OLD SCENARIO — Benchmark Case | NEW SCENARIO — Realistic Distribution Line |
+|----------|--------------------------------|-------------------------------------------|
+| Line Configuration | 10 km single-conductor transmission line | 2 km three-phase MV distribution line |
+| Voltage Sensors | 2 sensors | 2 sensors |
+| Lightning Events | 2000 simulated events | 2000 simulated events |
+| Samples per Waveform | 2000 | 3701 |
+| Soil Conductivity | 5 mS/m | 1 mS/m |
+| Surge Arresters | Not included | Installed every 250 m |
+| Purpose | Model comparison (FFDM, FTDM, MTDM) | High-fidelity validation (MTDM only) |
 
 Direct strikes are filtered using the Electro-Geometric Model (EGM).
 
 
-### 🧠  IMPLEMENTED METHODS
+### 🧠 IMPLEMENTED METHODS
 
+Three Deep Learning approaches are implemented and evaluated:
 
-FFDM  — Full Frequency Domain Method
-FTDM  — Full Time Domain Method
-MTDM  — Modified Time Domain Method (Best Performing)
+| Method | Domain | Description |
+|--------|--------|-------------|
+| **FFDM** | Frequency Domain | Full-spectrum Fourier representation of voltage waveforms. |
+| **FTDM** | Time Domain | Direct use of time-domain voltage samples. |
+| **MTDM** | Modified Time Domain | Compressed time-domain representation with adaptive feature reduction. |
 
-MTDM highlights:
-  • Leading-zero removal
-  • Adaptive time-domain compression
-  • 3 hidden layers (74 neurons each)
-  • 10-fold cross-validation
+### ⭐ Selected Model — MTDM (Best Performing)
 
-### 📈  PERFORMANCE (NEW SCENARIO - MTDM)
+The **Modified Time Domain Method (MTDM)** demonstrated
+the best overall accuracy and robustness.
 
+Key characteristics:
 
-  Average Location Error:        67.24 m
-  Peak Current MAE:              1.40 kA
-  ~70% of samples < 50 m error
+• Leading-zero removal (arrival-time normalization)  
+• Adaptive non-uniform time-domain compression  
+• Fully connected neural network  
+• 3 hidden layers (74 neurons each)  
+• 10-fold cross-validation  
 
-Robustness:
-  ✔ Stable under AWGN noise (SNR down to 25 dB)
-  ✔ Low sensitivity to soil conductivity changes
+### 📈 PERFORMANCE — New Scenario (MTDM)
 
+The Modified Time Domain Method (MTDM) achieves the following
+results on the realistic distribution line scenario:
+
+| Metric | Value |
+|--------|-------|
+| **Average Location Error (ALE)** | 67.24 m |
+| **Peak Current Mean Absolute Error (MAE)** | 1.40 kA |
+| **Localization Accuracy** | ~70% of events with error < 50 m |
+
+### 🔍 Robustness Analysis
+
+The model maintains stable performance under realistic perturbations:
+
+✔ Additive White Gaussian Noise (AWGN) — tested down to SNR = 25 dB  
+✔ Variations in soil conductivity (limited sensitivity observed)
 
 ----
 ### 🔮  NEXT STEPS — PHASE 2

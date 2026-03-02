@@ -190,26 +190,26 @@ and University of Campania “Luigi Vanvitelli”.
 | Name | Role | ORCID |
 |------|------|-------|
 | **Renato Procopio** | Associate Professor | [[Profile](https://rubrica.unige.it/personale/UkNHWFxs)] |
-| **Massimo Brignone** | Associate Professor | [ORCID](https://orcid.org/XXXX) |
-| **Daniele Mestriner** | Researcher (RTD-A) | [ORCID](https://orcid.org/XXXX) |
-| **Martino Nicora** | PhD Candidate | [ORCID](https://orcid.org/XXXX) |
+| **Massimo Brignone** | Associate Professor | [Profile] |
+| **Daniele Mestriner** | Researcher (RTD-A) | [Profile] |
+| **Martino Nicora** | PhD Candidate | [Profile] |
 
 ### 🇮🇹 University of Pisa — DESTEC  
 *Department of Energy, Systems, Territory and Construction Engineering*
 
 | Name | Role | ORCID |
 |------|------|-------|
-| **Sami Barmada**  | Full Professor  | [ORCID](https://orcid.org/XXXX) |
-| **Shayan Dodge**  | Research Fellow | [ORCID](https://orcid.org/XXXX) |
-| **Mauro Tucci**   | Full Professor | [ORCID](https://orcid.org/XXXX) |
+| **Sami Barmada**  | Full Professor  | [ORCID]|
+| **Shayan Dodge**  | Research Fellow | [Profile], [ORCID]|
+| **Mauro Tucci**   | Full Professor | [ORCID]|
 
 ### 🇮🇹 University of Campania “Luigi Vanvitelli”  
 *Department of Engineering*
 
 | Name | Role | ORCID |
 |------|------|-------|
-| **Alessandro Formisano** | Full Professor | [ORCID](https://orcid.org/XXXX) |
-| **Ehsan Akbari Sekeh Ravani** | Research Fellow | [ORCID](https://orcid.org/XXXX) |
+| **Alessandro Formisano** | Full Professor | [ORCID] |
+| **Ehsan Akbari Sekeh Ravani** | Research Fellow | [ORCID]|
   
 
 

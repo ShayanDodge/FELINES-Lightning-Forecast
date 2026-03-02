@@ -12,13 +12,15 @@ More context is available on the project website and public deliverables ([links
 
 ## 📑 Table of Contents
 
-- [📦 What the Repository Includes](#-what-a-repository-includes)
+- [📦 What the Repository Includes](#-what-the-repository-includes)
+
 - [📌 Phase 1 — First Case Study](#-phase-1--first-case-study)
-- [🌩 Project Vision](#-project-vision)
-- [📦 Repository Content](#-repository-content)
-- [📊 Datasets](#-datasets)
-- [🧠 Implemented Methods](#-implemented-methods)
-- [📈 Performance — New Scenario (MTDM)](#-performance--new-scenario-mtdm)
+  - [🌩 Project Vision](#-project-vision)
+  - [📦 Repository Content](#-repository-content)
+  - [📊 Datasets](#-datasets)
+  - [🧠 Implemented Methods](#-implemented-methods)
+  - [📈 Performance — New Scenario (MTDM)](#-performance--new-scenario-mtdm)
+
 - [🔮 Next Steps — Phase 2](#-next-steps--phase-2)
 - [👥 Project Team](#-project-team)
 - [🤝 Acknowledgments](#-acknowledgments)

@@ -26,7 +26,7 @@ More context is available on the project website and public deliverables ([links
 - [🤝 Acknowledgments](#-acknowledgments)
 
 ---
-# 📦 What a Repository Includes
+# 📦 What the Repository Includes
 
 ## 📍 Phase 1 — Lightning Geolocation and Peak Current Estimation  
 - Developing deep learning models trained on electromagnetic signals
@@ -57,7 +57,7 @@ The scientific foundations of this work are presented in:
 📌 This repository implements, reproduces, and extends the methodology
 described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
-### 🌩  PROJECT VISION
+### 🌩  Project Vision
 
 Rather than relying solely on conventional far-field Lightning
 Location Systems (LLS), FELINES introduces a line-integrated
@@ -108,7 +108,7 @@ It contains:
   and robustness analysis utilities ensuring full
   reproducibility of the published results.
 
-### 📊 DATASETS
+### 📊 Datasets
 
 The repository includes two simulated scenarios used for
 model development and validation:
@@ -126,7 +126,7 @@ model development and validation:
 Direct strikes are filtered using the Electro-Geometric Model (EGM).
 
 
-### 🧠 IMPLEMENTED METHODS
+### 🧠 Implemented Methods
 
 Three Deep Learning approaches are implemented and evaluated:
 
@@ -149,7 +149,7 @@ Key characteristics:
 • 3 hidden layers (74 neurons each)  
 • 10-fold cross-validation  
 
-### 📈 PERFORMANCE — New Scenario (MTDM)
+### 📈 Performance — New Scenario (MTDM)
 
 The Modified Time Domain Method (MTDM) achieves the following
 results on the realistic distribution line scenario:
@@ -168,7 +168,7 @@ The model maintains stable performance under realistic perturbations:
 ✔ Variations in soil conductivity (limited sensitivity observed)
 
 ----
-### 🔮  NEXT STEPS — PHASE 2
+### 🔮  Next Steps — Phase 2
 
 
   • Preliminary Breakdown Pulse (PBP) analysis

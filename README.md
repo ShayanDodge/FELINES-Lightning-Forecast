@@ -190,26 +190,26 @@ and University of Campania “Luigi Vanvitelli”.
 | Name | Role | ORCID |
 |------|------|-------|
 | **Renato Procopio** | Associate Professor | [[Profile](https://rubrica.unige.it/personale/UkNHWFxs)] |
-| **Massimo Brignone** | Associate Professor | [Profile] |
-| **Daniele Mestriner** | Researcher (RTD-A) | [Profile] |
-| **Martino Nicora** | PhD Candidate | [Profile] |
+| **Massimo Brignone** | Associate Professor | [[Profile](https://rubrica.unige.it/personale/UkNHXFpu)] |
+| **Daniele Mestriner** | Researcher (RTD-A) | [[Profile](https://rubrica.unige.it/personale/VkVCXV9u)] |
+| **Martino Nicora** | PhD Candidate | [[Profile](https://rubrica.unige.it/personale/UkJBX1ht)] |
 
 ### 🇮🇹 University of Pisa — DESTEC  
 *Department of Energy, Systems, Territory and Construction Engineering*
 
 | Name | Role | ORCID |
 |------|------|-------|
-| **Sami Barmada**  | Full Professor  | [ORCID]|
-| **Shayan Dodge**  | Research Fellow | [Profile], [ORCID]|
-| **Mauro Tucci**   | Full Professor | [ORCID]|
+| **Sami Barmada**  | Full Professor  | [[Profile](https://destec.unipi.it/people/barmada-sami)]|
+| **Shayan Dodge**  | Research Fellow | [[Profile](https://destec.unipi.it/people/dodge-shayan)], [[ORCID](https://orcid.org/my-orcid?orcid=0000-0002-8323-2290)]|
+| **Mauro Tucci**   | Full Professor | [[Profile](https://destec.unipi.it/people/tucci-mauro)]|
 
 ### 🇮🇹 University of Campania “Luigi Vanvitelli”  
 *Department of Engineering*
 
 | Name | Role | ORCID |
 |------|------|-------|
-| **Alessandro Formisano** | Full Professor | [ORCID] |
-| **Ehsan Akbari Sekeh Ravani** | Research Fellow | [ORCID]|
+| **Alessandro Formisano** | Full Professor | [[Profile](https://www.ingegneria.unicampania.it/dipartimento/docenti-csa?MATRICOLA=057903)] |
+| **Ehsan Akbari Sekeh Ravani** | Research Fellow | [[Profile](https://www.researchgate.net/profile/Ehsan-Akbari-Sekehravani)]|
   
 
 

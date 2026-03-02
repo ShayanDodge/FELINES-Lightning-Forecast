@@ -25,6 +25,25 @@ More context is available on the project website and public deliverables ([links
 >  ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**. Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
 
+### 📌 PHASE 1 — FIRST CASE STUDY
+
+This release corresponds to **Phase 1 of the FELINES project**, 
+dedicated to lightning geolocation and peak current estimation 
+from lightning-induced voltages on overhead lines.
+
+The scientific foundations of this work are presented in:
+
+> **Dodge, S.; Nicora, M.; Barmada, S.; Brignone, M.; Procopio, R.; Tucci, M.**  
+> *“A deep learning based lightning location system.”*  
+> Electric Power Systems Research, 2025, https://doi.org/10.1016/j.epsr.2025.111437.  
+> [Read the article](https://www.sciencedirect.com/science/article/pii/S0378779625000306)
+
+This repository implements, reproduces, and extends the methodology
+described in the above peer-reviewed publication.
+
+📌If you use this code, dataset, or results in your research, please cite the original article.
+
+
 --------------------------------------------------------------------
 🌩  PROJECT VISION
 --------------------------------------------------------------------
@@ -74,6 +93,35 @@ This repository contains:
   • Training and evaluation scripts
   • Robustness testing utilities
 
+
+This release includes:
+
+  • The Old Scenario (Benchmark Case Study)
+    A simplified 10-km single-conductor transmission line
+    used to implement and compare the three proposed
+    Deep Learning approaches (FFDM, FTDM, MTDM)
+    under controlled simulation conditions.
+
+  • The New Scenario (Realistic Distribution Line Case)
+    A 2-km three-phase medium-voltage distribution system
+    including surge arresters and nonlinear components.
+    In this realistic configuration, only the best-performing
+    method (MTDM) is evaluated, following its superior
+    performance in the benchmark study.
+
+  • Deep Learning Architectures
+    Full implementation of the three regression models:
+      - FFDM (Full Frequency Domain Method)
+      - FTDM (Full Time Domain Method)
+      - MTDM (Modified Time Domain Method)
+    with MTDM selected as the final model for the
+    high-fidelity scenario.
+
+  • Reproducible Training and Evaluation Scripts
+    Complete preprocessing, feature engineering,
+    10-fold cross-validation, performance metrics,
+    and robustness analysis pipelines to ensure
+    full reproducibility of the published results.
 
 --------------------------------------------------------------------
 📊  DATASETS

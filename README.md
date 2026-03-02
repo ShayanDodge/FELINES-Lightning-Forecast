@@ -183,17 +183,32 @@ FELINES is developed by a multidisciplinary research team from
 University of Genoa (DITEN), University of Pisa (DESTEC),
 and University of Campania “Luigi Vanvitelli”.
 
-| Name | Role | Institution | ORCID / Profile |
-|------|------|------------|------------------|
-| **Renato Procopio** | Associate Professor | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
-| **Massimo Brignone** | Associate Professor | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
-| **Daniele Mestriner** | Researcher (RTD-A) | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
-| **Martino Nicora** | PhD Candidate | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
-| **Sami Barmada** | Full Professor | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
-| **Shayan Dodge** | Research Fellow | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
-| **Mauro Tucci** | Full Professor | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
-| **Alessandro Formisano** | Full Professor | Univ. Campania “L. Vanvitelli” | [ORCID](https://orcid.org/XXXX) |
-| **Ehsan Akbari Sekeh Ravani** | Research Fellow | Univ. Campania “L. Vanvitelli” | [ORCID](https://orcid.org/XXXX) |
+### 🇮🇹 University of Genoa — DITEN  
+*Department of Naval, Electrical, Electronic and Telecommunication Engineering*
+
+| Name | Role | ORCID |
+|------|------|-------|
+| **Renato Procopio** | Associate Professor | [ORCID](https://orcid.org/XXXX) |
+| **Massimo Brignone** | Associate Professor | [ORCID](https://orcid.org/XXXX) |
+| **Daniele Mestriner** | Researcher (RTD-A) | [ORCID](https://orcid.org/XXXX) |
+| **Martino Nicora** | PhD Candidate | [ORCID](https://orcid.org/XXXX) |
+
+### 🇮🇹 University of Pisa — DESTEC  
+*Department of Energy, Systems, Territory and Construction Engineering*
+
+| Name | Role | ORCID |
+|------|------|-------|
+| **Sami Barmada**  | Full Professor  | [ORCID](https://orcid.org/XXXX) |
+| **Shayan Dodge**  | Research Fellow | [ORCID](https://orcid.org/XXXX) |
+| **Mauro Tucci**   | Full Professor | [ORCID](https://orcid.org/XXXX) |
+
+### 🇮🇹 University of Campania “Luigi Vanvitelli”  
+*Department of Engineering*
+
+| Name | Role | ORCID |
+|------|------|-------|
+| **Alessandro Formisano** | Full Professor | [ORCID](https://orcid.org/XXXX) |
+| **Ehsan Akbari Sekeh Ravani** | Research Fellow | [ORCID](https://orcid.org/XXXX) |
   
 --------------------------------------------------------------------
 🤝  ACKNOWLEDGMENTS

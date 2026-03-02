@@ -38,10 +38,8 @@ The scientific foundations of this work are presented in:
 > Electric Power Systems Research, 2025, https://doi.org/10.1016/j.epsr.2025.111437.  
 > [Read the article](https://www.sciencedirect.com/science/article/pii/S0378779625000306)
 
-This repository implements, reproduces, and extends the methodology
-described in the above peer-reviewed publication.
-
-📌If you use this code, dataset, or results in your research, please cite the original article.
+📌 This repository implements, reproduces, and extends the methodology
+described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
 
 --------------------------------------------------------------------

@@ -175,7 +175,26 @@ Robustness:
   • Protection-triggering strategy design
   • Experimental validation on real networks
 
+---
 
+## 👥 Project Team
+
+FELINES is developed by a multidisciplinary research team from
+University of Genoa (DITEN), University of Pisa (DESTEC),
+and University of Campania “Luigi Vanvitelli”.
+
+| Name | Role | Institution | ORCID / Profile |
+|------|------|------------|------------------|
+| **Renato Procopio** | Associate Professor | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
+| **Massimo Brignone** | Associate Professor | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
+| **Daniele Mestriner** | Researcher (RTD-A) | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
+| **Martino Nicora** | PhD Candidate | University of Genoa (DITEN) | [ORCID](https://orcid.org/XXXX) |
+| **Sami Barmada** | Full Professor | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
+| **Shayan Dodge** | Research Fellow | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
+| **Mauro Tucci** | Full Professor | University of Pisa (DESTEC) | [ORCID](https://orcid.org/XXXX) |
+| **Alessandro Formisano** | Full Professor | Univ. Campania “L. Vanvitelli” | [ORCID](https://orcid.org/XXXX) |
+| **Ehsan Akbari Sekeh Ravani** | Research Fellow | Univ. Campania “L. Vanvitelli” | [ORCID](https://orcid.org/XXXX) |
+  
 --------------------------------------------------------------------
 🤝  ACKNOWLEDGMENTS
 --------------------------------------------------------------------

@@ -24,7 +24,6 @@ More context is available on the project website and public deliverables ([links
 
 >  ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**. Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
-
 ### 📌 PHASE 1 — FIRST CASE STUDY
 
 This release corresponds to **Phase 1 of the FELINES project**, 
@@ -42,9 +41,8 @@ The scientific foundations of this work are presented in:
 described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
 
---------------------------------------------------------------------
-🌩  PROJECT VISION
---------------------------------------------------------------------
+#### 🌩  PROJECT VISION
+
 
 FELINES develops an intelligent framework for lightning-aware
 electrical infrastructure protection.
@@ -62,9 +60,7 @@ Dodge et al., “A deep learning based lightning location system”
 Electric Power Systems Research, 2025.
 
 
---------------------------------------------------------------------
-🎯  OBJECTIVE
---------------------------------------------------------------------
+#### 🎯  OBJECTIVE
 
 Estimate in real time:
 
@@ -79,9 +75,8 @@ Using:
   • Deep Learning regression models
 
 
---------------------------------------------------------------------
-📦  REPOSITORY CONTENT
---------------------------------------------------------------------
+#### 📦 REPOSITORY CONTENT
+
 
 This repository contains:
 
@@ -121,12 +116,12 @@ This release includes:
     and robustness analysis pipelines to ensure
     full reproducibility of the published results.
 
---------------------------------------------------------------------
-📊  DATASETS
---------------------------------------------------------------------
+
+#### 📊  DATASETS
+
 
 1) OLD SCENARIO — Benchmark Case
----------------------------------
+
   • 10 km single-conductor transmission line
   • 2 voltage sensors
   • 2000 simulated lightning events
@@ -135,7 +130,7 @@ This release includes:
 
 
 2) NEW SCENARIO — Realistic Distribution Line
----------------------------------------------
+
   • 2 km three-phase MV distribution line
   • Surge arresters every 250 m
   • 2 voltage sensors
@@ -146,9 +141,8 @@ This release includes:
 Direct strikes are filtered using the Electro-Geometric Model (EGM).
 
 
---------------------------------------------------------------------
-🧠  IMPLEMENTED METHODS
---------------------------------------------------------------------
+#### 🧠  IMPLEMENTED METHODS
+
 
 FFDM  — Full Frequency Domain Method
 FTDM  — Full Time Domain Method
@@ -160,10 +154,8 @@ MTDM highlights:
   • 3 hidden layers (74 neurons each)
   • 10-fold cross-validation
 
+#### 📈  PERFORMANCE (NEW SCENARIO - MTDM)
 
---------------------------------------------------------------------
-📈  PERFORMANCE (NEW SCENARIO - MTDM)
---------------------------------------------------------------------
 
   Average Location Error:        67.24 m
   Peak Current MAE:              1.40 kA
@@ -174,9 +166,9 @@ Robustness:
   ✔ Low sensitivity to soil conductivity changes
 
 
---------------------------------------------------------------------
-🔮  NEXT STEPS — PHASE 2
---------------------------------------------------------------------
+----
+### 🔮  NEXT STEPS — PHASE 2
+
 
   • Preliminary Breakdown Pulse (PBP) analysis
   • Early classification of dangerous return strokes

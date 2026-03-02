@@ -41,7 +41,7 @@ More context is available on the project website and public deliverables ([links
 
 >  ⚠️ This repository currently contains the implementation of **Phase 1 (Geolocation and Peak Current Estimation)**. Phase 2 (Early Classification and Protection Strategy) will be integrated in future releases.
 ---
-## 📌 Phase 1 — FIRST CASE STUDY
+## 📌 Phase 1 — First Case Study
 
 This release corresponds to **Phase 1 of the FELINES project**, 
 dedicated to lightning geolocation and peak current estimation 
@@ -73,7 +73,7 @@ At its core, the system learns the physical-to-data mapping:
 
     Induced Voltage Waveforms  →  {Strike Location (x, y), Peak Current}
 
-### 📦 REPOSITORY CONTENT
+### 📦 Repository Content
 
 This repository provides the complete implementation of Phase 1,
 including datasets, models, and reproducible experimentation

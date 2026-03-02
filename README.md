@@ -40,40 +40,21 @@ The scientific foundations of this work are presented in:
 📌 This repository implements, reproduces, and extends the methodology
 described in the above peer-reviewed publication. If you use this code, dataset, or results in your research, please cite the original article.
 
-
 ### 🌩  PROJECT VISION
 
+Rather than relying solely on conventional far-field Lightning
+Location Systems (LLS), FELINES introduces a line-integrated
+approach that infers lightning characteristics directly from
+voltage waveforms induced on overhead power lines.
 
-FELINES develops an intelligent framework for lightning-aware
-electrical infrastructure protection.
+The framework enables the estimation of:
 
-Instead of relying on conventional far-field Lightning Location
-Systems (LLS), this approach estimates lightning characteristics
-directly from voltage waveforms induced on power lines.
+• Lightning strike coordinates (x, y)  
+• Channel-base peak current (kA)
 
-The system learns the mapping:
+At its core, the system learns the physical-to-data mapping:
 
-    Induced Voltages  →  {Strike Location (x,y), Peak Current}
-
-Scientific reference:
-Dodge et al., “A deep learning based lightning location system”
-Electric Power Systems Research, 2025.
-
-
-### 🎯  OBJECTIVE
-
-Estimate in real time:
-
-  • Lightning strike coordinates (x, y)
-  • Channel-base peak current (kA)
-
-Using:
-
-  • Physics-based lightning modeling
-  • Electromagnetic field simulation
-  • Field-to-line coupling analysis
-  • Deep Learning regression models
-
+    Induced Voltage Waveforms  →  {Strike Location (x, y), Peak Current}
 
 ### 📦 REPOSITORY CONTENT
 

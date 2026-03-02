@@ -189,7 +189,7 @@ and University of Campania “Luigi Vanvitelli”.
 
 | Name | Role | ORCID |
 |------|------|-------|
-| **Renato Procopio** | Associate Professor | [ORCID](https://orcid.org/XXXX) |
+| **Renato Procopio** | Associate Professor | [[Profile](https://rubrica.unige.it/personale/UkNHWFxs)] |
 | **Massimo Brignone** | Associate Professor | [ORCID](https://orcid.org/XXXX) |
 | **Daniele Mestriner** | Researcher (RTD-A) | [ORCID](https://orcid.org/XXXX) |
 | **Martino Nicora** | PhD Candidate | [ORCID](https://orcid.org/XXXX) |

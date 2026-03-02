@@ -202,9 +202,3 @@ and University of Campania “Luigi Vanvitelli”.
 Supported by:
 Italian Ministry for Education, University, and Research (PRIN 2022)
 European Union — NextGenerationEU
-
-
-====================================================================
-For academic collaboration or questions, visit:
-https://felines.prin.unige.it/
-====================================================================

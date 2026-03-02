@@ -58,44 +58,38 @@ At its core, the system learns the physical-to-data mapping:
 
 ### 📦 REPOSITORY CONTENT
 
+This repository provides the complete implementation of Phase 1,
+including datasets, models, and reproducible experimentation
+pipelines.
 
-This repository contains:
+It contains:
 
-  • Simulation datasets (Old + New scenarios)
-  • Preprocessing pipeline
-  • Three Deep Learning architectures
-  • Training and evaluation scripts
-  • Robustness testing utilities
+• **Simulation Datasets**  
+  - *Old Scenario* — A benchmark 10-km single-conductor
+    transmission line used to implement and compare the three
+    proposed Deep Learning approaches (FFDM, FTDM, MTDM)
+    under controlled conditions.  
+  - *New Scenario* — A realistic 2-km three-phase medium-voltage
+    distribution system including surge arresters and nonlinear
+    components. In this configuration, only the best-performing
+    model (MTDM) is evaluated, following its superior benchmark results.
 
+• **Deep Learning Architectures**  
+  Full implementations of the three regression models:  
+  - FFDM — Full Frequency Domain Method  
+  - FTDM — Full Time Domain Method  
+  - MTDM — Modified Time Domain Method  
+  with MTDM selected as the reference model for the
+  high-fidelity scenario.
 
-This release includes:
+• **Preprocessing and Feature Engineering Pipeline**  
+  Signal conditioning, dimensionality reduction,
+  and adaptive time-domain compression routines.
 
-  • The Old Scenario (Benchmark Case Study)
-    A simplified 10-km single-conductor transmission line
-    used to implement and compare the three proposed
-    Deep Learning approaches (FFDM, FTDM, MTDM)
-    under controlled simulation conditions.
-
-  • The New Scenario (Realistic Distribution Line Case)
-    A 2-km three-phase medium-voltage distribution system
-    including surge arresters and nonlinear components.
-    In this realistic configuration, only the best-performing
-    method (MTDM) is evaluated, following its superior
-    performance in the benchmark study.
-
-  • Deep Learning Architectures
-    Full implementation of the three regression models:
-      - FFDM (Full Frequency Domain Method)
-      - FTDM (Full Time Domain Method)
-      - MTDM (Modified Time Domain Method)
-    with MTDM selected as the final model for the
-    high-fidelity scenario.
-
-  • Reproducible Training and Evaluation Scripts
-    Complete preprocessing, feature engineering,
-    10-fold cross-validation, performance metrics,
-    and robustness analysis pipelines to ensure
-    full reproducibility of the published results.
+• **Training and Evaluation Framework**  
+  10-fold cross-validation, performance metrics,
+  and robustness analysis utilities ensuring full
+  reproducibility of the published results.
 
 
 ### 📊  DATASETS

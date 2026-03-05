@@ -20,6 +20,7 @@ More context is available on the project website and public deliverables ([links
   - [📊 Datasets](#-datasets)
   - [🧠 Implemented Methods](#-implemented-methods)
   - [📈 Performance — New Scenario (MTDM)](#-performance--new-scenario-mtdm)
+  - [🚀 Getting Started](#-getting--started)
 
 - [🔮 Next Steps — Phase 2](#-next-steps--phase-2)
 - [👥 Project Team](#-project-team)
@@ -166,6 +167,17 @@ The model maintains stable performance under realistic perturbations:
 
 ✔ Additive White Gaussian Noise (AWGN) — tested down to SNR = 25 dB  
 ✔ Variations in soil conductivity (limited sensitivity observed)
+
+### 🚀 Getting Started
+
+1. Navigate to:
+   Phase 1 — Lightning Geolocation and Peak Current Estimation/
+
+2. Choose:
+   - Old scenario
+   - New scenario
+
+3. Follow the README inside each folder.
 
 ----
 ### 🔮 Next Steps — Phase 2

@@ -8,6 +8,13 @@ FELINES is a research project aiming to **design a preventive protection concept
 The work combines **PBP/RS modeling**, **electromagnetic field & coupling simulations**, and **machine learning** for early classification (“dangerous RS” vs “not dangerous”).  
 More context is available on the project website and public deliverables ([links below](https://felines.prin.unige.it/)).
 
+### 🔧 Installation & Setup
+
+```bash
+git clone https://github.com/ShayanDodge/FELINES-Lightning-Forecast.git
+cd FELINES-Lightning-Forecast
+```
+
 ---
 
 ## 📑 Table of Contents
@@ -219,9 +226,8 @@ and University of Campania “Luigi Vanvitelli”.
 |------|------|-------|
 | **Alessandro Formisano** | Full Professor | [[Profile](https://www.ingegneria.unicampania.it/dipartimento/docenti-csa?MATRICOLA=057903)] |
 | **Ehsan Akbari Sekeh Ravani** | Research Fellow | [[Profile](https://www.researchgate.net/profile/Ehsan-Akbari-Sekehravani)]|
-  
 
-
+---
 ## 🤝 Acknowledgments
 
 Supported by:

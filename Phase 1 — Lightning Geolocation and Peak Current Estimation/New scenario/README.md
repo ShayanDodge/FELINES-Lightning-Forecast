@@ -14,6 +14,27 @@ The workflow combines **MATLAB preprocessing** with **Python-based training (Jup
 
 ---
 
+## 📂 Folder Structure
+
+    New scenario/
+    │
+    ├── Lightning_Location_Current_Trainer_Manual CV.ipynb
+    ├── Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
+    ├── Lightning_Location_y_Stratified_Trainer_Manual CV.ipynb
+    │
+    ├── Loader.m
+    ├── Spliter.m (legacy / optional)
+    │
+    ├── data_part_1.mat
+    ├── data_part_2.mat
+    ├── data_part_3.mat
+    ├── data_part_4.mat
+    ├── data_part_5.mat
+    │
+    └── README.md
+
+---
+
 ## ⚙️ How to Run (Correct Order)
 
 ### Step 1 — Run `Loader.m` in MATLAB (Required)
@@ -66,7 +87,7 @@ Each notebook:
 ### Python (Required Libraries)
 
 Make sure the following packages are installed:
-
+* `Python 3.8+`
 * `numpy`
 * `scipy.io`
 * `pandas`

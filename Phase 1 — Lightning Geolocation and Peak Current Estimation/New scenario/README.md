@@ -67,25 +67,6 @@ Each notebook:
 
 Make sure the following packages are installed:
 
-* numpy
-* scipy
-* pandas
-* matplotlib
-* scikit-learn
-* tensorflow
-* joblib
-* jupyter
-
-You can install everything using:
-
-```bash
-pip install numpy scipy pandas matplotlib scikit-learn tensorflow joblib notebook
-```
-
----
-
-## 📦 Python Modules Used in the Notebooks
-
 * `numpy`
 * `scipy.io`
 * `pandas`
@@ -96,5 +77,9 @@ pip install numpy scipy pandas matplotlib scikit-learn tensorflow joblib noteboo
 * `tensorflow.keras`
 * `joblib`
 
----
+You can install everything using:
+
+```bash
+pip install numpy scipy pandas matplotlib scikit-learn tensorflow joblib notebook
+```
 

@@ -180,12 +180,11 @@ The model maintains stable performance under realistic perturbations:
 ----
 ### 🔮 Next Steps — Phase 2
 
-
-  • Preliminary Breakdown Pulse (PBP) analysis
-  • Early classification of dangerous return strokes
-  • Protection-triggering strategy design
-  • Experimental validation on real networks
-
+    • Preliminary Breakdown Pulse (PBP) analysis
+    • Early classification of dangerous return strokes
+    • Protection-triggering strategy design
+    • Experimental validation on real networks
+  
 ---
 
 ## 👥 Project Team

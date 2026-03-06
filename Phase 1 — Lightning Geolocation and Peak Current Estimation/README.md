@@ -8,51 +8,52 @@ electromagnetic signal data.
 
 ## 📂 Directory Structure
 
-## New scenario/
-
-Improved modeling pipeline with refined data handling and
-training strategy.
-
-• Lightning_Location_Current_Trainer_Manual CV.ipynb
-→ Joint training for location and peak current estimation
-using manual cross-validation.
-
-• Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
-→ Model for predicting x-coordinate using stratified CV.
-
-• Lightning_Location_y_Stratified_Trainer_Manual CV.ipynb
-→ Model for predicting y-coordinate using stratified CV.
-
-• Loader.m
-→ MATLAB script for loading and preparing dataset parts.
-
-• Spliter.m
-→ Data splitting and preprocessing utility.
-
-• data_part_1.mat – data_part_5.mat
-→ Partitioned training datasets used for model development.
-
-• README.md
-→ Scenario-specific documentation.
-
-## Old scenario/
-
-Baseline implementation used for comparison.
-
-• Lightning_Location_Current_Trainer_Manual CV.ipynb
-→ Original joint training model.
-
-• Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
-→ Baseline x-coordinate predictor.
-
-• Lightning_Location_y_Stratified_Trainer_Manual CV.ipynb
-→ Baseline y-coordinate predictor.
-
-• case2_trainingset_randomCurrent_v4_5mS.mat
-→ Original training dataset.
-
-• README.md
-→ Description of baseline setup.
+    Phase 1 — Lightning Geolocation and Peak Current Estimation
+    │
+    ├── New scenario/
+    │   │
+    │   ├── Lightning_Location_Current_Trainer_Manual CV.ipynb
+    │   │   → Joint model for lightning location (x, y) and peak current
+    │   │     estimation using manual cross-validation.
+    │   │
+    │   ├── Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
+    │   │   → Stratified cross-validation model for x-coordinate prediction.
+    │   │
+    │   ├── Lightning_Location_y_Stratified_Trainer_Manual CV.ipynb
+    │   │   → Stratified cross-validation model for y-coordinate prediction.
+    │   │
+    │   ├── Loader.m
+    │   │   → MATLAB script for loading and assembling dataset partitions.
+    │   │
+    │   ├── Spliter.m  (legacy / optional)
+    │   │   → Data splitting utility used in earlier experiments.
+    │   │
+    │   ├── data_part_1.mat
+    │   ├── data_part_2.mat
+    │   ├── data_part_3.mat
+    │   ├── data_part_4.mat
+    │   ├── data_part_5.mat
+    │   │   → Partitioned training datasets used for model development.
+    │   │
+    │   └── README.md
+    │       → Documentation for the improved modeling pipeline.
+    │
+    └── Old scenario/
+        │
+        ├── Lightning_Location_Current_Trainer_Manual CV.ipynb
+        │   → Baseline joint model for location and peak current estimation.
+        │
+        ├── Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
+        │   → Baseline x-coordinate prediction model.
+        │
+        ├── Lightning_Location_y_Stratified_Trainer_Manual CV.ipynb
+        │   → Baseline y-coordinate prediction model.
+        │
+        ├── case2_trainingset_randomCurrent_v4_5mS.mat
+        │   → Original training dataset used in the baseline approach.
+        │
+        └── README.md
+            → Documentation for the baseline implementation.
 
 ---
 

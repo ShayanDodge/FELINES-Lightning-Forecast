@@ -74,8 +74,8 @@ voltage waveforms induced on overhead power lines.
 
 The framework enables the estimation of:
 
-• Lightning strike coordinates (x, y)  
-• Channel-base peak current (kA)
+- Lightning strike coordinates (x, y)  
+- Channel-base peak current (kA)
 
 At its core, the system learns the physical-to-data mapping:
 
@@ -86,10 +86,7 @@ At its core, the system learns the physical-to-data mapping:
 This repository provides the complete implementation of Phase 1,
 including datasets, models, and reproducible experimentation
 pipelines.
-
-It contains:
-
-• **Simulation Datasets**  
+- **Simulation Datasets**  
   - *Old Scenario* — A benchmark 10-km single-conductor
     transmission line used to implement and compare the three
     proposed Deep Learning approaches (FFDM, FTDM, MTDM)
@@ -99,19 +96,17 @@ It contains:
     components. In this configuration, only the best-performing
     model (MTDM) is evaluated, following its superior benchmark results.
 
-• **Deep Learning Architectures**  
-  Full implementations of the three regression models:  
-  - FFDM — Full Frequency Domain Method  
-  - FTDM — Full Time Domain Method  
+- **Deep Learning Architectures**  
+  Full implementations of the best regression models:  
   - MTDM — Modified Time Domain Method  
   with MTDM selected as the reference model for the
   high-fidelity scenario.
 
-• **Preprocessing and Feature Engineering Pipeline**  
+- **Preprocessing and Feature Engineering Pipeline**  
   Signal conditioning, dimensionality reduction,
   and adaptive time-domain compression routines.
 
-• **Training and Evaluation Framework**  
+- **Training and Evaluation Framework**  
   10-fold cross-validation, performance metrics,
   and robustness analysis utilities ensuring full
   reproducibility of the published results.
@@ -131,9 +126,6 @@ model development and validation:
 | Surge Arresters | Not included | Installed every 250 m |
 | Purpose | Model comparison (FFDM, FTDM, MTDM) | High-fidelity validation (MTDM only) |
 
-Direct strikes are filtered using the Electro-Geometric Model (EGM).
-
-
 ### 🧠 Implemented Methods
 
 Three Deep Learning approaches are implemented and evaluated:
@@ -151,11 +143,11 @@ the best overall accuracy and robustness.
 
 Key characteristics:
 
-• Leading-zero removal (arrival-time normalization)  
-• Adaptive non-uniform time-domain compression  
-• Fully connected neural network  
-• 3 hidden layers (74 neurons each)  
-• 10-fold cross-validation  
+- Leading-zero removal (arrival-time normalization)  
+- Adaptive non-uniform time-domain compression  
+- Fully connected neural network  
+- 3 hidden layers (74 neurons each)  
+- 10-fold cross-validation  
 
 ### 📈 Performance — New Scenario (MTDM)
 

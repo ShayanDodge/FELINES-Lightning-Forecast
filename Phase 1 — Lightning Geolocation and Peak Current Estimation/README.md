@@ -13,7 +13,7 @@ electromagnetic signal data.
     ├── New scenario/
     │   │
     │   ├── Lightning_Location_Current_Trainer_Manual CV.ipynb
-    │   │   → Joint model for lightning location (x, y) and peak current
+    │   │   → The model for lightning location (x, y) and peak current
     │   │     estimation using manual cross-validation.
     │   │
     │   ├── Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
@@ -41,7 +41,7 @@ electromagnetic signal data.
     └── Old scenario/
         │
         ├── Lightning_Location_Current_Trainer_Manual CV.ipynb
-        │   → Baseline joint model for location and peak current estimation.
+        │   → Baseline model for location and peak current estimation.
         │
         ├── Lightning_Location_x_Stratified_Trainer_Manual CV.ipynb
         │   → Baseline x-coordinate prediction model.
